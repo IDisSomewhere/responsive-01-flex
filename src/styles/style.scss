@@ -1,0 +1,15 @@
+@import "reset.scss";
+* {
+    box-sizing: border-box;
+  }
+  
+img {
+    max-width: 100%;
+  }
+
+body{
+    border : solid;
+    border-image: linear-gradient(to left,#77731E 0%, #FDEC00 100%);
+    border-image-slice: 1;
+    border-width: 10px;
+}
